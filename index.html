@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+		<!-- google fonts -->
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;500;600;700&display=swap"
+			rel="stylesheet"
+		/>
+
+		<!-- CSS -->
+		<link rel="stylesheet" href="style.css" />
+
+		<!-- favicon -->
+		<link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png" />
+
+		<!-- title -->
+		<title>Todo app</title>
+	</head>
+	<body>
+		<!-- header -->
+		<header class="wrapper">
+			<h1>Todo</h1>
+
+			<button>
+				<img src="images/icon-moon.svg" alt="change theme mode" />
+			</button>
+		</header>
+
+		<!-- main to do content -->
+		<main class="wrapper">
+			<div class="todo-input">
+				<button class="input-add"></button>
+				<input type="text" placeholder="Create a new todo..." class="input" maxlength="50" />
+			</div>
+
+			<div class="todo-list"></div>
+
+			<div class="todo-footer">
+				<p><span>0</span> items left</p>
+
+				<button>Clear Completed</button>
+			</div>
+
+			<div class="todo-tabs">
+				<button class="selected">All</button>
+				<button>Active</button>
+				<button>Completed</button>
+			</div>
+		</main>
+
+		<!-- footer of the app -->
+		<footer class="wrapper attribution">
+			Challenge by
+			<a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+			Coded by <a href="https://github.com/ahmedAgawad">Ahmed Abdelgawad</a>.
+		</footer>
+
+		<script src="main.js"></script>
+	</body>
+</html>
